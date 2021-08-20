@@ -2,14 +2,14 @@ export const Schedule = (props) => {
   return (
     <div id='Schedule' className='text-center'>
       <div className='container'>
-        <div className='section-title'>
+        <div className='section-title row col-md-10 col-md-offset-1 col-xs-12 col-xs-offset-2'>
           <h2>SCHEDULE</h2>
           {/* <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed
             dapibus leonec.
           </p> */}
         </div>
-        <div className='row'>
+        <div className='row col-md-10 col-md-offset-1 col-xs-12 col-xs-offset-2'>
           {props.data
             ? props.data.map((d, i) => (
               <div key={`${d.name}-${i}`} className='col-md-4'>
