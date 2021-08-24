@@ -4,10 +4,6 @@ export const Schedule = (props) => {
       <div className='container'>
         <div className='section-title row col-md-10 col-md-offset-1 col-xs-12 col-xs-offset-2'>
           <h2>SCHEDULE</h2>
-          {/* <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed
-            dapibus leonec.
-          </p> */}
         </div>
         <div className='row col-md-10 col-md-offset-1 col-xs-12 col-xs-offset-2'>
           {props.data
