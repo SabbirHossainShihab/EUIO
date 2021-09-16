@@ -1,47 +1,35 @@
 {
   "Header": {
-    "title": "QUIZ COMPETITION",
-    "paragraph": "Facebook and Youtube in our daily life"
+    "title": "INFORMATICS OLYMPIAD",
+    "paragraph": "Eastern University Online Informatics Olympiad"
   },
   "Schedule": [
     {
-      "date": "14 JANUARY",
-      "name": "REGISTRATION DEADLINE",
-      "text": "4:00 PM"
+      "name": "INFORMATICS OLYMPIAD",
+      "text": "08 October 2021 (Friday) 10:00 am – 12:00 pm"
     },
     {
-      "date": "15 JANUARY",
-      "name": "QUIZ CONTEST",
-      "text": "11:59:59 PM"
-    },
-    {
-      "date": "16 JANUARY",
-      "name": "PRIZE CEREMONY",
-      "text": "11:00 AM-11:45 AM."
-    },
-    {
-      "date": "17 JANUARY",
-      "name": "SHORT COURSE BREAKTHROUGH",
-      "text": "4:00 PM"
+      "name": "PRIZE GIVING CEREMONY",
+      "text": "08 October 2021 (Friday) 4:00 pm – 5:00 pm"
     }
   ],
   "Prize": [
     {
+      "prizenum": "Champion",
+      "position": "",
+      "name": "BDT 10000/=",
+      "job": "Prize Money"
+    },
+    {
       "prizenum": "1",
-      "position": "st",
-      "name": "BDT 6000/=",
+      "position": "nd RUNNER-UP",
+      "name": "BDT 8000/=",
       "job": "Prize Money"
     },
     {
       "prizenum": "2",
-      "position": "nd",
-      "name": "BDT 4000/=",
-      "job": "Prize Money"
-    },
-    {
-      "prizenum": "3",
-      "position": "rd",
-      "name": "BDT 3000/=",
+      "position": "rd RUNNER-UP",
+      "name": "BDT 6000/=",
       "job": "Prize Money"
     }
   ],
@@ -68,24 +56,12 @@
   ],
   "QuizDetails": [
     {
-      "title": "Topic",
-      "text": "Facebook and Youtube in our daily life"
-    },
-    {
       "title": "Registration Deadline",
-      "text": "14 January 2021"
-    },
-    {
-      "title": "Contest Schedule",
-      "text": "15 January 2021, 11:00 am - 11:45 am"
-    },
-    {
-      "title": "Question Type",
-      "text": "MCQ"
+      "text": "07 October 2021 (Thursday)"
     },
     {
       "title": "Eligibility",
-      "text": "HSC/Diploma/Equivalent 2020 and 2021"
+      "text": "HSC/A-Level/Diploma/Equivalent Students"
     }
   ]
 }

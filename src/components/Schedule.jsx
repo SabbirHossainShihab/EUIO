@@ -3,16 +3,15 @@ export const Schedule = (props) => {
     <div id='Schedule' className='text-center'>
       <div className='container'>
         <div className='section-title row col-md-10 col-md-offset-1 col-xs-12 col-xs-offset-2'>
-          <h2>SCHEDULE</h2>
+          <h2><u>SCHEDULE</u></h2>
         </div>
         <div className='row col-md-10 col-md-offset-1 col-xs-12 col-xs-offset-2'>
           {props.data
             ? props.data.map((d, i) => (
-              <div key={`${d.name}-${i}`} className='col-md-4'>
+              <div key={`${d.name}-${i}`} className='col-md-6'>
                 {' '}
-                <h2>{d.date}</h2>
                 <div className='service-desc'>
-                  <h3>{d.name}</h3>
+                  <h2>{d.name}</h2>
                   <p>{d.text}</p>
                 </div>
               </div>

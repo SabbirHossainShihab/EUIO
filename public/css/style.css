@@ -221,7 +221,7 @@ a:focus,
 .intro h1 {
   font-family: "Raleway", sans-serif;
   color: #fff;
-  font-size: 82px;
+  font-size: 80px;
   font-weight: 700;
   text-transform: uppercase;
   margin-top: 0;
@@ -318,19 +318,19 @@ header .intro-text {
 /* Schedule Section */
 #Schedule {
   padding: 100px 0;
-  background-color:1860AA;
-  color: #fff;
+  background-color: white;
   width: 100% !important;
-  padding: 0px;
+  padding-bottom: 70px;
   margin: 0px;
 }
 #Schedule .Schedule-desc {
   margin: 10px 10px 20px;
 }
 #Schedule h2 {
-  color:#fff;
-  font-family: sans-serif;
-  font-weight: 500;
+  font-size: 30px;
+  margin: 0 0 20px;
+  color: #1860AA;
+  padding-top: 20px;
 }
 #Schedule .section-title h2::after {
   position: absolute;
@@ -358,7 +358,10 @@ header .intro-text {
   color: #fff;
 }
 #Schedule p {
-  color:#fff;
+  font-size: 20px;
+  font-weight: 600;
+  color:darkslategray;
+}
 }
 #Schedule .service-desc {
   margin-bottom: 40px;
@@ -367,6 +370,7 @@ header .intro-text {
 #portfolio {
   padding: 100px 0;
   width: 100% !important;
+  
 }
 .portfolio-item {
   margin: 1px -15px 0 -14px;
@@ -416,11 +420,11 @@ header .intro-text {
 /* Registration Section */
 #Registration {
   padding: 100px 0;
-  background: #f6f6f6;
+  background-color:rgb(255, 143, 68);
   width: 100% !important;
 }
-#Registration i {
-  color: #e6e6e6;
+#Registration h3 {
+  color: white;
   font-size: 32px;
   margin-bottom: 20px;
 }
@@ -457,7 +461,7 @@ header .intro-text {
 /* Another Section */
 #prize {
   padding-top: 100px;
-  background-color:rgb(9, 190, 214);
+  background-color:rgb(252, 135, 57);
   background-size: cover;
 }
 #Prize sup{
@@ -465,14 +469,19 @@ header .intro-text {
   font-family:Georgia, 'Times New Roman', Times, serif;
   text-transform: lowercase;
 }
+#Prize h2{
+  color:black;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
 #Prize h3{
   padding: 100px 0;
   font-size: 30;
-  color:firebrick;
+  color:black;
   font-family:Georgia, 'Times New Roman', Times, serif;
 }
 #Prize h4 {
   margin: 5px 0;
+  color:black;
 }
 #Prize .team-img {
   width: 240px;
@@ -488,7 +497,7 @@ header .intro-text {
 /* Contact Section */
 #contact {
   padding: 100px 0 60px;
-  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+  background-color:rgb(252, 135, 57);
   color: rgba(255, 255, 255, 0.75);
 }
 #contact .section-title {
