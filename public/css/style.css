@@ -210,10 +210,10 @@ a:focus,
   width: 100%;
   padding: 0;
   background-color:#1860AA;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  -o-background-size: cover;
+  /* -webkit-background-size; */
+  /* -moz-background-size: cover; */
+  background-size: contain;
+  /* -o-background-size: cover; */
 }
 .intro .overlay {
   background: rgba(0, 0, 0, 0.2);
@@ -221,7 +221,7 @@ a:focus,
 .intro h1 {
   font-family: "Raleway", sans-serif;
   color: #fff;
-  font-size: 80px;
+  font-size: 52px;
   font-weight: 700;
   text-transform: uppercase;
   margin-top: 0;
@@ -265,8 +265,10 @@ header .intro-text {
 }
 /* QuizDetails Section */
 #QuizDetails {
+  display: table;
   padding: 100px 0;
   width: 100% !important;
+  background-size: contain;
 }
 #QuizDetails h3 {
   font-size: 24px;
@@ -317,11 +319,13 @@ header .intro-text {
 }
 /* Schedule Section */
 #Schedule {
+  display: table;
   padding: 100px 0;
   background-color: white;
   width: 100% !important;
   padding-bottom: 70px;
   margin: 0px;
+  background-size: contain;
 }
 #Schedule .Schedule-desc {
   margin: 10px 10px 20px;
@@ -419,6 +423,7 @@ header .intro-text {
 }
 /* Registration Section */
 #Registration {
+  display: table;
   padding: 100px 0;
   background-color:rgb(255, 143, 68);
   width: 100% !important;
@@ -496,6 +501,8 @@ header .intro-text {
 }
 /* Contact Section */
 #contact {
+  display: table;
+  width: 100%;
   padding: 100px 0 60px;
   background-color:rgb(252, 135, 57);
   color: rgba(255, 255, 255, 0.75);

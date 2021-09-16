@@ -2,10 +2,10 @@ export const Schedule = (props) => {
   return (
     <div id='Schedule' className='text-center'>
       <div className='container'>
-        <div className='section-title row col-md-10 col-md-offset-1 col-xs-12 col-xs-offset-2'>
+        <div className='section-title row col-md-10 col-md-offset-1'>
           <h2><u>SCHEDULE</u></h2>
         </div>
-        <div className='row col-md-10 col-md-offset-1 col-xs-12 col-xs-offset-2'>
+        <div className='row col-md-10 col-md-offset-1'>
           {props.data
             ? props.data.map((d, i) => (
               <div key={`${d.name}-${i}`} className='col-md-6'>
