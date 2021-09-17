@@ -4,9 +4,6 @@ export const Gallery = (props) => {
       <div className='container'>
         <div className='section-title'>
           <h2>Gallery</h2>
-          <p>
-            Eastern University always cares about quality education. Our moto is "Distinction in Education"
-          </p>
         </div>
         <div className='row'>
           <div className='portfolio-items'>

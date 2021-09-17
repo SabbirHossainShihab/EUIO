@@ -75,7 +75,7 @@ hr {
   z-index: -1;
   height: 81px;
   width: 100%;
-  opacity: 0.6;
+  opacity: 0.8;
   
 }
 #menu {
@@ -285,10 +285,10 @@ header .intro-text {
   background-size: contain;
 }
 #QuizDetails h3 {
-  padding-top: 18px;
-  font-size: 22px;
+  padding-top: 5px;
+  font-size: 25px;
   font-weight: bolder;
-  margin: 0 0 20px;
+  margin: 0 0 10px;
   color: #1860AA;
  
 }
@@ -395,14 +395,14 @@ header .intro-text {
 }
 /* Portfolio Section */
 #portfolio {
-  padding: 100px 0;
+  padding: 55px 0;
   width: 100% !important;
   
 }
 .portfolio-item {
   margin: 0;
   padding: 0;
-  height: 34%;
+  height: 35%;
 }
 .portfolio-item .hover-bg {
   overflow: hidden;
@@ -531,7 +531,7 @@ header .intro-text {
   width: 100%;
   padding: 100px 0 60px;
   background-color:rgb(252, 135, 57);
-  color: rgba(255, 255, 255, 0.75);
+  color: black;
 }
 #contact .section-title {
   margin-bottom: 40px;
@@ -540,16 +540,27 @@ header .intro-text {
   font-size: 16px;
 }
 #contact h2 {
-  color: #fff;
+  color: black;
   margin-top: 10px;
   margin-bottom: 15px;
-  padding-bottom: 15px;
+  font-weight: 100px;
+  font-size: 20px;
 }
 #contact h4 {
-  color: #fff;
-  margin-top: 10px;
-  margin-bottom: 15px;
-  padding-bottom: 15px;
+  color: black;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-bottom: 10px;
+  font-weight: 100px;
+  font-size: 20px;
+}
+#contact p {
+  color: black;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-bottom: 5px;
+  font-weight: 100px;
+  font-size: 20px;
 }
 #contact .section-title h2::after {
   position: absolute;
@@ -560,12 +571,12 @@ header .intro-text {
   bottom: 0;
   left: 560px;
 }
-#contact h3 {
+#contact h1 {
   color: #fff;
   margin-top: 80px;
   margin-bottom: 25px;
   padding-bottom: 20px;
-  font-weight: 400;
+  font-weight: 200;
 }
 #contact form {
   padding-top: 20px;
@@ -575,7 +586,7 @@ header .intro-text {
   text-align: left;
 }
 #contact .btn-custom {
-  margin: 31px 0;
+  margin: 30px 0;
   background: transparent;
   border: 2px solid #fff;
 }

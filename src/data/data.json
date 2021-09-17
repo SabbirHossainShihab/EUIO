@@ -40,8 +40,11 @@
   "Contact": [
     {
       "person": "Contact Person",
-      "name": "Muhammad Mahfuz Hasan, Chairperson",
-      "address": "Department of Computer Science and Engineering, Faculty of Engineering and Technology, Eastern University",
+      "name": "Muhammad Mahfuz Hasan",
+      "designation": "Chairperson",
+      "dept": "Department of Computer Science and Engineering Faculty of Engineering and Technology",
+      "east": "Eastern University",
+      "address": "Eastern University, Bangladesh. Road 6, Block B, Ashulia Model Town Dhaka-1345",
       "phone": "8801614327514",
       "email": "cse_events@easternuni.edu.bd"
     },
