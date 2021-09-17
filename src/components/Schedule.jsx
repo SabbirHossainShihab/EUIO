@@ -16,7 +16,7 @@ export const Schedule = (props) => {
                 </div>
               </div>
             ))
-            : 'loading!!!'}
+            : 'loading!!!!!'}
         </div>
       </div>
     </div>
