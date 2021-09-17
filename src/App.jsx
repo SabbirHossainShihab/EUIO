@@ -4,7 +4,6 @@ import { Header } from "./components/header";
 import { QuizDetails } from "./components/QuizDetails";
 import { Schedule } from "./components/Schedule";
 import { Gallery } from "./components/gallery";
-import { Registration } from "./components/Registration";
 import { Prize } from "./components/Prize";
 import { Contact } from "./components/contact";
 import JsonData from "./data/data.json";
@@ -29,7 +28,6 @@ const App = () => {
       <QuizDetails data={landingPageData.QuizDetails} />
       <Prize data={landingPageData.Prize} />
       <Schedule data={landingPageData.Schedule} />
-      {/* <Registration /> */}
       <Gallery />
       <Contact data={landingPageData.Contact} />
     </div>

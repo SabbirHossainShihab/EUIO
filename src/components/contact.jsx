@@ -39,7 +39,7 @@ export const Contact = (props) => {
           <div className='section-title text-center'>
             <h2>Get In Touch</h2>
           </div>
-          {/* <div className='col-md-4'>
+          <div className='col-md-4'>
             <div className='row'>
               <div className='section-title'>
                 <h2>Get In Touch</h2>
@@ -97,7 +97,7 @@ export const Contact = (props) => {
                 </button>
               </form>
             </div>
-          </div> */}
+          </div>
           {props.data ? props.data.map((d, i) => (
             <div className='col-md-5 col-md-offset-1 contact-info'>
               <div className='contact-item'>
