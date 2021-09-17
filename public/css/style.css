@@ -71,11 +71,21 @@ hr {
   border: 0;
 }
 /* Navigation */
+#my_img {
+  z-index: -1;
+  height: 81px;
+  width: 100%;
+  opacity: 0.6;
+  
+}
 #menu {
   padding: 15px;
   transition: all 0.8s;
 }
+
 #menu.navbar-default {
+  z-index: 1;
+  opacity: 0.8;
   background-color: #fff;
   border-color: rgba(231, 231, 231, 0);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
@@ -90,9 +100,9 @@ hr {
 #menu.navbar-default .navbar-nav > li > a {
   font-family: "Lato", sans-serif;
   text-transform: uppercase;
-  color: #555;
+  color: rgb(3, 18, 150);
   font-size: 15px;
-  font-weight: 400;
+  font-weight:bolder;
   padding: 8px 2px;
   border-radius: 0;
   margin: 9px 20px 0;
@@ -209,6 +219,7 @@ a:focus,
   display: table;
   width: 100%;
   padding: 0;
+  margin-bottom: 10px;
   background-color:#1860AA;
   /* -webkit-background-size; */
   /* -moz-background-size: cover; */
@@ -265,22 +276,27 @@ header .intro-text {
 }
 /* QuizDetails Section */
 #QuizDetails {
+  background-color: rgb(151, 252, 255);
   display: table;
-  padding: 100px 0;
+  margin-bottom: 5px;
+  padding-top: 78px;
+  padding-bottom: 100px;
   width: 100% !important;
   background-size: contain;
 }
 #QuizDetails h3 {
-  font-size: 24px;
+  padding-top: 18px;
+  font-size: 22px;
+  font-weight: bolder;
   margin: 0 0 20px;
   color: #1860AA;
  
 }
 #QuizDetails p {
-  font-size: 18px;
+  font-size: 16px;
   position: relative;
-  margin-bottom: 15px;
-  padding-bottom: 15px;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
   color:darkslategray;
 }
  /* #about h2::after {
@@ -321,7 +337,7 @@ header .intro-text {
 #Schedule {
   display: table;
   padding: 100px 0;
-  background-color: white;
+  background-color: rgb(151, 252, 255);
   width: 100% !important;
   padding-bottom: 70px;
   margin: 0px;
@@ -331,10 +347,17 @@ header .intro-text {
   margin: 10px 10px 20px;
 }
 #Schedule h2 {
-  font-size: 30px;
+  font-size: 27px;
   margin: 0 0 20px;
   color: #1860AA;
   padding-top: 20px;
+}
+#Schedule h1 {
+  font-size: 37px;
+  margin: 0 0 20px;
+  color: #1860AA;
+  padding-top: 20px;
+  font-weight: bolder;
 }
 #Schedule .section-title h2::after {
   position: absolute;
@@ -377,8 +400,9 @@ header .intro-text {
   
 }
 .portfolio-item {
-  margin: 1px -15px 0 -14px;
+  margin: 0;
   padding: 0;
+  height: 34%;
 }
 .portfolio-item .hover-bg {
   overflow: hidden;
@@ -466,6 +490,8 @@ header .intro-text {
 /* Another Section */
 #prize {
   padding-top: 100px;
+  padding-bottom: 50px;
+  margin-bottom: 10px;
   background-color:rgb(252, 135, 57);
   background-size: cover;
 }
@@ -530,9 +556,9 @@ header .intro-text {
   content: "";
   background: rgba(255, 255, 255, 0.3);
   height: 4px;
-  width: 60px;
+  width: 80px;
   bottom: 0;
-  left: 30px;
+  left: 560px;
 }
 #contact h3 {
   color: #fff;

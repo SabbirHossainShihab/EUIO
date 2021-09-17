@@ -2,6 +2,7 @@ export const Header = (props) => {
   console.log(props.data);
   return (
     <header id='header'>
+      <img id="my_img" src="img/portfolio/LOGO_EU_Web.png" alt="Nothing shown" />
       <div className='intro'>
         <div className='overlay'>
           <div className='container-fluid'>

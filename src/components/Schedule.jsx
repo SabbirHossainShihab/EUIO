@@ -3,12 +3,12 @@ export const Schedule = (props) => {
     <div id='Schedule' className='text-center'>
       <div className='container'>
         <div className='section-title row col-md-10 col-md-offset-1'>
-          <h2><u>SCHEDULE</u></h2>
+          <h1><u>SCHEDULE</u></h1>
         </div>
         <div className='row col-md-10 col-md-offset-1'>
           {props.data
             ? props.data.map((d, i) => (
-              <div key={`${d.name}-${i}`} className='col-md-6'>
+              <div key={`${d.name}-${i}`} className='col-md-12'>
                 {' '}
                 <div className='service-desc'>
                   <h2>{d.name}</h2>

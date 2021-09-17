@@ -5,6 +5,10 @@
   },
   "Schedule": [
     {
+      "name": "REGISTRATION DEADLINE",
+      "text": "07 October 2021 (Thursday)"
+    },
+    {
       "name": "INFORMATICS OLYMPIAD",
       "text": "08 October 2021 (Friday) 10:00 am – 12:00 pm"
     },
@@ -22,13 +26,13 @@
     },
     {
       "prizenum": "1",
-      "position": "nd RUNNER-UP",
+      "position": "st RUNNER-UP",
       "name": "BDT 8000/=",
       "job": "Prize Money"
     },
     {
       "prizenum": "2",
-      "position": "rd RUNNER-UP",
+      "position": "nd RUNNER-UP",
       "name": "BDT 6000/=",
       "job": "Prize Money"
     }
@@ -36,22 +40,16 @@
   "Contact": [
     {
       "person": "Contact Person",
-      "name": "Mohammad Mozammel Hoque, Senior Executive",
-      "address": "Dean's Office & CSE Department Eastern University",
-      "phone": "Tel: 09602666651, 09602666652, Ext: 112 Cellphone: 01716-479810",
-      "email": "mozammel@easternuni.edu.bd",
-      "facebook": "fb.com",
-      "twitter": "twitter.com",
-      "youtube": "youtube.com"
+      "name": "Muhammad Mahfuz Hasan, Chairperson",
+      "address": "Department of Computer Science and Engineering, Faculty of Engineering and Technology, Eastern University",
+      "phone": "8801614327514",
+      "email": "cse_events@easternuni.edu.bd"
     },
     {
       "person": "Our Address",
       "address": "Eastern University, Bangladesh. Road 6, Block B, Ashulia Model Town Dhaka-1345",
       "phone": "Tel: 09602666651, 09602666652 Fax: +8802967 5981",
-      "email": "info@easternuni.edu.bd",
-      "facebook": "fb.com",
-      "twitter": "twitter.com",
-      "youtube": "youtube.com"
+      "email": "info@easternuni.edu.bd"
     }
   ],
   "QuizDetails": [
@@ -60,8 +58,16 @@
       "text": "07 October 2021 (Thursday)"
     },
     {
+      "title": "Olympiad Schedule",
+      "text": "08 October 2021 (Friday) 10:00 am – 12:00 pm"
+    },
+    {
+      "title": "Questions Type",
+      "text": "MCQ"
+    },
+    {
       "title": "Eligibility",
-      "text": "HSC/A-Level/Diploma/Equivalent Students"
+      "text": "HSC/A-Level/Diploma/Equivalent Students of 2020, 2021 & 2022"
     }
   ]
 }
