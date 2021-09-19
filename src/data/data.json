@@ -26,13 +26,13 @@
     },
     {
       "prizenum": "1",
-      "position": "st RUNNER-UP",
+      "position": "st Runner-up",
       "name": "BDT 8000/=",
       "job": "Prize Money"
     },
     {
       "prizenum": "2",
-      "position": "nd RUNNER-UP",
+      "position": "nd Runner-up",
       "name": "BDT 6000/=",
       "job": "Prize Money"
     }
@@ -62,7 +62,7 @@
       "text": "07 October 2021 (Thursday)"
     },
     {
-      "title": "Olympiad Schedule",
+      "title": "Competition",
       "text": "08 October 2021 (Friday) 10:00 am – 12:00 pm"
     },
     {
@@ -72,6 +72,10 @@
     {
       "title": "Eligibility",
       "text": "HSC/A-Level/Diploma/Equivalent Students of 2020, 2021 & 2022"
+    },
+    {
+      "title": "Prize Giving Ceremony",
+      "text": "08 October 2021 (Friday) 4:00 pm – 5:00 pm"
     }
   ]
 }

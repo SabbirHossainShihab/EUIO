@@ -1,8 +1,8 @@
-import { useState, useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import { Navigation } from "./components/navigation";
 import { Header } from "./components/header";
 import { QuizDetails } from "./components/QuizDetails";
-import { Schedule } from "./components/Schedule";
+// import { Schedule } from "./components/Schedule";
 import { Gallery } from "./components/gallery";
 import { Prize } from "./components/Prize";
 import { Contact } from "./components/contact";
@@ -27,7 +27,7 @@ const App = () => {
       <Header data={landingPageData.Header} />
       <QuizDetails data={landingPageData.QuizDetails} />
       <Prize data={landingPageData.Prize} />
-      <Schedule data={landingPageData.Schedule} />
+      {/* <Schedule data={landingPageData.Schedule} /> */}
       <Gallery />
       <Contact data={landingPageData.Contact} />
     </div>
