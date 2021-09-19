@@ -2,7 +2,7 @@
 import { Navbar, Nav, Container } from 'react-bootstrap';
 export const Navigation = (props) => {
   return (
-    <Navbar collapseOnSelect expand='sm' variant='dark' bg='dark' id='menu' className='navbar navbar-default navbar-fixed-top'>
+    <Navbar collapseOnSelect expand='lg' variant='dark' bg='dark' id='menu' className='navbar navbar-default navbar-fixed-top'>
       <div className='container'>
 
 
@@ -53,7 +53,7 @@ export const Navigation = (props) => {
                   </Nav.Link>
                 </li>
                 <li>
-                  <Nav.Link href='#Registration' className='page-scroll'>
+                  <Nav.Link href='https://tinyurl.com/tsd6mu58' className='page-scroll'>
                     REGISTRATION
                   </Nav.Link>
                 </li>

@@ -18,7 +18,7 @@ export const QuizDetails = (props) => {
             ))
             : 'Loading...'}
           <a
-            href='https://www.easternuni.edu.bd/'
+            href='https://tinyurl.com/tsd6mu58'
             className='btn btn-custom btn-lg page-scroll'
           >
             REGISTER NOW

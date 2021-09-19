@@ -13,7 +13,7 @@ export const Header = (props) => {
         {/* <img id="wb" src="img/portfolio/wb_.jpg" alt="Nothing shown" className="responsive" /> */}
       </div>
       <a
-        href='https://www.easternuni.edu.bd/'
+        href='https://tinyurl.com/tsd6mu58'
         className='btn btn-custom btn-lg page-scroll' id='mybtn'
       >
         REGISTER NOW
