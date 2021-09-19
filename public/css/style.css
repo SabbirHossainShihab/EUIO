@@ -222,6 +222,10 @@ a:focus,
   width:100%;
 }
 
+@media only screen and (min-device-width: 50px) {
+  img.responsive { width: 50%; }
+  }
+
 #mybtn{
   margin-top: 10px;
   z-index: 1;

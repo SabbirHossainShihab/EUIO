@@ -1,3 +1,5 @@
+import Image from 'react-bootstrap/Image'
+
 export const Header = (props) => {
   console.log(props.data);
   return (
@@ -7,7 +9,8 @@ export const Header = (props) => {
 
 
       <div id='bwb'>
-        <img id="wb" src="img/portfolio/wb_.jpg" alt="Nothing shown" />
+        <Image src="img/portfolio/wb_.jpg" thumbnail />
+        {/* <img id="wb" src="img/portfolio/wb_.jpg" alt="Nothing shown" className="responsive" /> */}
       </div>
       <a
         href='https://www.easternuni.edu.bd/'
