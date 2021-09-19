@@ -2,7 +2,7 @@
 import { Navbar, Nav, Container } from 'react-bootstrap';
 export const Navigation = (props) => {
   return (
-    <Navbar collapseOnSelect expand='lg' variant='dark' bg='dark' id='menu' className='navbar navbar-default navbar-fixed-top'>
+    <Navbar collapseOnSelect expand='sm' variant='dark' bg='dark' id='menu' className='navbar navbar-default navbar-fixed-top'>
       <div className='container'>
 
 
@@ -30,7 +30,6 @@ export const Navigation = (props) => {
             <button type='button' className='navbar-toggle'>
               {' '}
               <span className='sr-only'>Toggle navigation</span>{' '}
-              <span className='icon-bar'></span>{' '}
               <span className='icon-bar'></span>{' '}
               <span className='icon-bar'></span>{' '}
             </button>
