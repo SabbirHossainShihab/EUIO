@@ -73,7 +73,7 @@ hr {
 /* Navigation */
 #my_img {
   z-index: -1;
-  height: 81px;
+  height: 90px;
   width: 100%;
   opacity: 0.8;
   
@@ -222,15 +222,24 @@ a:focus,
   width:100%;
 }
 
+/* #yuy {
+  height: 70%;
+  width: 100%;
+} */
+
 @media only screen and (min-device-width: 50px) {
-  img.responsive { width: 50%; }
+  Image.yuy { width: 70%; }
   }
 
-#mybtn{
+#mybtn2{
   margin-top: 10px;
   z-index: 1;
-  position: absolute;
-  margin-left: 42%;
+  margin-bottom: 10px;
+}
+#mybtn1{
+ background-color: #FFC831;
+ margin-left: 1px;
+ margin-right: 1px;
 }
 .intro {
   display: table;
@@ -238,6 +247,7 @@ a:focus,
   padding: 0;
   margin-bottom: 10px;
   background-color:#1860AA;
+  
   /* -webkit-background-size; */
   /* -moz-background-size: cover; */
   background-size: contain;
