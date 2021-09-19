@@ -5,8 +5,8 @@ html {
   -webkit-font-smoothing: antialiased !important;
   color: #777;
   font-weight: 400;
-  /* width: 100% !important;
-  height: 100% !important; */
+  width: 100% !important;
+  height: 100% !important;
 }
 h2,
 h3,
@@ -84,7 +84,7 @@ hr {
 }
 
 #menu.navbar-default {
-  z-index: 1;
+  z-index: 2;
   opacity: 0.8;
   background-color: #fff;
   border-color: rgba(231, 231, 231, 0);
@@ -94,7 +94,7 @@ hr {
   font-family: "Raleway", sans-serif;
   font-size: 24px;
   font-weight: 700;
-  color: #333;
+  color: #333;   
   text-transform: uppercase;
 }
 #menu.navbar-default .navbar-nav > li > a {
@@ -140,7 +140,8 @@ hr {
   transition: width 0.2s !important;
 }
 .navbar-toggle {
-  border-radius: 0;
+  border-radius: 50;
+  float: left;
 }
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
@@ -215,6 +216,18 @@ a:focus,
 }
 /* Header Section */
 
+#wb {
+  z-index: -1;
+  height: 77%;
+  width: 100%;
+}
+
+#mybtn{
+  margin-top: 10px;
+  z-index: 1;
+  position: absolute;
+  margin-left: 40%;
+}
 .intro {
   display: table;
   width: 100%;

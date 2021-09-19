@@ -102,9 +102,10 @@ export const Contact = (props) => {
             <div className='col-md-5 col-md-offset-1 contact-info'>
               <div className='contact-item'>
                 <h1>{d.person}</h1>
-                <h4>{d.name}</h4>
+                <h2>{d.name}</h2>
                 <h4>{d.designation}</h4>
                 <h4>{d.dept}</h4>
+                <h4>{d.fact}</h4>
                 <h4>{d.east}</h4>
                 <p>
                   <span>

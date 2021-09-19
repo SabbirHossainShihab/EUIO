@@ -1,72 +1,86 @@
 
-
+import { Navbar, Nav, Container } from 'react-bootstrap';
 export const Navigation = (props) => {
   return (
-    <nav id='menu' className='navbar navbar-default navbar-fixed-top'>
+    <Navbar collapseOnSelect expand='lg' variant='dark' bg='dark' id='menu' className='navbar navbar-default navbar-fixed-top'>
       <div className='container'>
-        <div className='navbar-header'>
-          <button
-            type='button'
-            className='navbar-toggle collapsed'
-            data-toggle='collapse'
-            data-target='#bs-example-navbar-collapse-1'
-          >
-            {' '}
-            <span className='sr-only'>Toggle navigation</span>{' '}
-            <span className='icon-bar'></span>{' '}
-            <span className='icon-bar'></span>{' '}
-            <span className='icon-bar'></span>{' '}
-          </button>
-          <a className='navbar-brand page-scroll' href='#page-top'>
-            CSE EU
-          </a>{' '}
-        </div>
 
-        <div
-          className='collapse navbar-collapse'
-          id='bs-example-navbar-collapse-1'
-        >
-          <ul className='nav navbar-nav navbar-right'>
-            <li>
-              <a href='#header' className='page-scroll'>
-                HOME
-              </a>
-            </li>
-            <li>
-              <a href='#QuizDetails' className='page-scroll'>
-                OLYMPIAD DETAILS
-              </a>
-            </li>
-            <li>
-              <a href='#Prize' className='page-scroll'>
-                PRIZES
-              </a>
-            </li>
-            <li>
-              <a href='#Schedule' className='page-scroll'>
-                SCHEDULE
-              </a>
-            </li>
-            <li>
-              <a href='#Registration' className='page-scroll'>
-                REGISTRATION
-              </a>
-            </li>
-            <li>
-              <a href='#portfolio' className='page-scroll'>
-                GALLERY
-              </a>
-            </li>
 
-            <li>
-              <a href='#contact' className='page-scroll'>
-                CONTACT
-              </a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
+
+        {/* My imported Code */}
+        <Container>
+          <div className='navbar-header'>
+            {/* <button
+                type='button'
+                className='navbar-toggle collapsed'
+                data-toggle='collapse'
+                data-target='#bs-example-navbar-collapse-1'
+              >
+                {' '}
+                <span className='sr-only'>Toggle navigation</span>{' '}
+                <span className='icon-bar'></span>{' '}
+                <span className='icon-bar'></span>{' '}
+                <span className='icon-bar'></span>{' '}
+              </button> */}
+            <a className='navbar-brand page-scroll' href='#page-top' data-target='#bs-example-navbar-collapse-1'>
+              CSE EU
+            </a>{' '}
+          </div>
+          <Navbar.Toggle>
+            <button type='button' className='navbar-toggle'>
+              {' '}
+              <span className='sr-only'>Toggle navigation</span>{' '}
+              <span className='icon-bar'></span>{' '}
+              <span className='icon-bar'></span>{' '}
+              <span className='icon-bar'></span>{' '}
+            </button>
+          </Navbar.Toggle>
+          <Navbar.Collapse id="bs-example-navbar-collapse-1">
+            <Nav className="me-auto navbar-right">
+              <ul className='nav navbar-nav navbar-right'>
+                <li>
+                  <Nav.Link href='#header' className='page-scroll'>
+                    HOME
+                  </Nav.Link>
+                </li>
+                <li>
+                  <Nav.Link href='#QuizDetails' className='page-scroll'>
+                    OLYMPIAD DETAILS
+                  </Nav.Link>
+                </li>
+                <li>
+                  <Nav.Link href='#Prize' className='page-scroll'>
+                    PRIZES
+                  </Nav.Link>
+                </li>
+                <li>
+                  <Nav.Link href='#Schedule' className='page-scroll'>
+                    SCHEDULE
+                  </Nav.Link>
+                </li>
+                <li>
+                  <Nav.Link href='#Registration' className='page-scroll'>
+                    REGISTRATION
+                  </Nav.Link>
+                </li>
+                <li>
+                  <Nav.Link href='#portfolio' className='page-scroll'>
+                    GALLERY
+                  </Nav.Link>
+                </li>
+
+                <li>
+                  <a href='#contact' className='page-scroll'>
+                    CONTACT
+                  </a>
+                </li>
+              </ul>
+            </Nav>
+
+          </Navbar.Collapse>
+        </Container>
+      </div >
+    </Navbar >
 
 
   )
