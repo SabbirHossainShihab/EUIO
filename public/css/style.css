@@ -603,12 +603,12 @@ header .intro-text {
 #Prize h3{
   padding: 100px 0;
   font-size: 30;
-  color:rgb(0, 0, 0);
+  color:rgb(37, 31, 31);
   font-family:Georgia, 'Times New Roman', Times, serif;
 }
 #Prize h4 {
   margin: 5px 0;
-  color: rgb(0, 0, 0);
+  color: rgb(37, 28, 28);
 }
 #Prize .team-img {
   width: 240px;
@@ -619,7 +619,7 @@ header .intro-text {
 }
 #Prize p {
   padding: 10px 0 0;
-  color: rgb(0, 0, 0);
+  color: rgb(27, 23, 23);
 }
 /* Contact Section */
 #contact {
