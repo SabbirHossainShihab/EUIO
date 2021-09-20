@@ -107,7 +107,7 @@ hr {
 #menu.navbar-default .navbar-nav > li > a {
   font-family: "Lato", sans-serif;
   text-transform: uppercase;
-  color: rgb(39, 32, 2);
+  color: rgb(41, 34, 4);
   font-size: 15px;
   font-weight:bolder;
   padding: 8px 2px;
@@ -243,7 +243,7 @@ a:focus,
 @media (max-width: 575.98px) {
   #wb {
     background-image: url("po1.jpg") !important;
-    width: 100%;
+    width: 90%;
 }
 .navbar-toggler {
   display: inline-block !important;
