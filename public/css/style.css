@@ -243,7 +243,7 @@ a:focus,
 @media (max-width: 575.98px) {
   #wb {
     background-image: url("po1.jpg") !important;
-    width:101%;
+    width:98%;
 }
 .navbar-toggler {
   display: inline-block !important;
