@@ -243,7 +243,7 @@ a:focus,
 @media (max-width: 575.98px) {
   #wb {
     background-image: url("po1.jpg") !important;
-    background-size: 360px 580px;
+    background-size: 365px 580px;
 }
 .navbar-toggler {
   display: inline-block !important;
@@ -593,7 +593,7 @@ header .intro-text {
   text-transform: lowercase;
 }
 #Prize h2{
-  color: rgb(76, 16, 133);
+  color: rgb(0, 0, 0);
   font-family:'Times New Roman', Times, serif;
   text-transform:unset;
 }
@@ -603,12 +603,12 @@ header .intro-text {
 #Prize h3{
   padding: 100px 0;
   font-size: 30;
-  color:rgb(15, 63, 153);
+  color:rgb(0, 0, 0);
   font-family:Georgia, 'Times New Roman', Times, serif;
 }
 #Prize h4 {
   margin: 5px 0;
-  color: rgb(76, 16, 133);
+  color: rgb(0, 0, 0);
 }
 #Prize .team-img {
   width: 240px;
@@ -619,7 +619,7 @@ header .intro-text {
 }
 #Prize p {
   padding: 10px 0 0;
-  color: rgb(76, 16, 133);
+  color: rgb(0, 0, 0);
 }
 /* Contact Section */
 #contact {
