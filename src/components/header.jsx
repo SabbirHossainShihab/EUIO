@@ -6,8 +6,6 @@ export const Header = (props) => {
     <header id='header' className='text-center'>
       <img id="my_img" src="img/portfolio/LOGO_EU_Web.png" alt="Nothing shown" />
 
-
-
       <div id='wb'>
 
       </div>

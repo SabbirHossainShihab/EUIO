@@ -1,5 +1,6 @@
 
 import { Navbar, Nav, Container } from 'react-bootstrap';
+import { FaBars } from "react-icons/fa";
 export const Navigation = (props) => {
   return (
     <Navbar collapseOnSelect expand='lg' variant='dark' bg='dark' id='menu' className='navbar navbar-default navbar-fixed-top'>
@@ -22,18 +23,24 @@ export const Navigation = (props) => {
                 <span className='icon-bar'></span>{' '}
                 <span className='icon-bar'></span>{' '}
               </button> */}
-            <a className='navbar-brand page-scroll' href='https://www.easternuni.edu.bd/departmentOfCSE' data-target='#bs-example-navbar-collapse-1'>
+            {/* <a className='navbar-brand page-scroll' href='https://www.easternuni.edu.bd/departmentOfCSE' data-target='#bs-example-navbar-collapse-1'>
               CSE EU
-            </a>{' '}
+            </a>{' '} */}
+            <Navbar.Brand href="https://www.easternuni.edu.bd/departmentOfCSE">CSE EU</Navbar.Brand>
           </div>
-          <Navbar.Toggle>
-            <button type='button' className='navbar-toggle'>
-              {' '}
-              <span className='sr-only'>Toggle navigation</span>{' '}
-              <span className='icon-bar'></span>{' '}
-              <span className='icon-bar'></span>{' '}
-            </button>
+
+          <Navbar.Toggle aria-controls="bs-example-navbar-collapse-1">
+            <FaBars color='green' size='2.5rem' />
+
           </Navbar.Toggle>
+          {/* <button type='button' className='navbar-toggle' className='navbar-toggle collapsed'
+            data-toggle='collapse'
+            data-target='#bs-example-navbar-collapse-1'>
+            {' '}
+            <span className='sr-only'>Toggle navigation</span>{' '}
+            <span className='icon-bar'></span>{' '}
+            <span className='icon-bar'></span>{' '}
+          </button> */}
           <Navbar.Collapse id="bs-example-navbar-collapse-1">
             <Nav className="me-auto navbar-right">
               <ul className='nav navbar-nav navbar-right'>
