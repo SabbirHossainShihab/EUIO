@@ -218,8 +218,11 @@ a:focus,
 
 #wb {
   z-index: -1;
-  height: 78%;
+  height: 70%;
   width:100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+
 }
 
 /* #yuy {
@@ -227,9 +230,55 @@ a:focus,
   width: 100%;
 } */
 
-@media only screen and (min-device-width: 50px) {
-  Image.yuy { width: 70%; }
+@media (max-width: 575.98px) {
+  #wb {
+    background-image: url("po2.jpg") !important;
+}
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) { }
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  #wb {
+    background-image: url("wb_.jpg") !important;
+}
+}
+
+@media (min-width: 1200px) {
+  #wb {
+    background-image: url("wb_.jpg") !important;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* @media (max-width: 480px) {
+  #wb {
+      background-image: url("po2.jpg") !important;
   }
+}
+
+@media (min-width: 1025px) {
+  #wb {
+    background-image: url("wb_.jpg") !important;
+ }
+} */
+
 
 #mybtn2{
   margin-top: 10px;
